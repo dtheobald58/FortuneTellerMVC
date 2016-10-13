@@ -1,0 +1,52 @@
+﻿
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    font-family: 'Squada One', cursive;
+    font-size:20px;
+}
+.navbar-inverse {
+    background-image:url("Images/stars.jpg");
+    border-color: #080808;
+}
+.jumbotron{
+    background-image:url('../Content/Images/computer-shopper-crystal-ball.jpg');
+    background-size:cover;
+    color:white;
+}
+#jumboText{
+    background-color:rgba(40, 26, 41,0.6);
+    padding-right:1%;
+}
+#jumboText h1{
+    font-family: 'Courgette', cursive;
+}
+.container .jumbotron {
+    border-radius: 1px;
+}
+.btn-primary {
+    background-color: rgb(61, 40, 62);
+    border-color: rgb(91, 60, 93);
+}
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
