@@ -1,4 +1,20 @@
-﻿
+﻿.homeButtons{
+    background-color: rgb(61, 40, 62);
+    border-color: rgb(91, 60, 93);
+    color:white;
+}
+.homeButtons:hover{
+    background-color: rgb(92, 60, 93);
+}
+.homeCol{
+    bottom:0px;
+}
+.h2Home a{
+    color:white;
+}
+#homeRow{
+    background-color:rgba(40, 26, 41,0.6);
+}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     font-family: 'Squada One', cursive;
     font-size:20px;
@@ -29,6 +45,12 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image:url('Images/eternal-circle-illuminati-facebook-featured-1024x538.jpg');
+    background-size:cover;
+    background-color:none;
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Set padding to keep content from hitting the edges */

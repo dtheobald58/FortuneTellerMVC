@@ -12,24 +12,24 @@
     <p><a href="http://www.astrology.com/" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>  
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>@Html.ActionLink("Customers", "Index", "Customers")</h2>
+<div class="row" id="homeRow">
+    <div class="col-md-4 homeCol">
+        <h2 class="h2Home">@Html.ActionLink("Customers", "Index", "Customers")</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            Add more customers so that the mere can be enlightened.
         </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <br />
+        <p><a class="btn btn-default homeButtons" href="~/Views/Customers/Create.cshtml">Add Customers &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Get more libraries</h2>
         <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default homeButtons" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Web Hosting</h2>
         <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <br />
+        <p><a class="btn btn-default homeButtons" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
