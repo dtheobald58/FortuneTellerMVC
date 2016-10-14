@@ -31,7 +31,7 @@
         </dt>
 
         <dd>
-            You will retire in <span>@ViewBag.retirementAge</span> years.
+            @Html.DisplayFor(model => model.FirstName) will retire in <span>@ViewBag.retirementAge</span> years.
         </dd>
 
         <dt>
@@ -39,7 +39,7 @@
         </dt>
 
         <dd>
-            You will have $<span>@ViewBag.moneyInTheBank</span> in the bank.
+            @Html.DisplayFor(model => model.FirstName) will have $<span>@ViewBag.moneyInTheBank</span> in the bank.
         </dd>
 
         <dt>
@@ -47,6 +47,7 @@
         </dt>
 
         <dd>
+            <br />
             @ViewBag.transportation
         </dd>
 
@@ -55,7 +56,7 @@
         </dt>
 
         <dd>
-            You will have a vacation home in <span>@ViewBag.vacationHome</span>.
+            @Html.DisplayFor(model => model.FirstName) will have a vacation home in <span>@ViewBag.vacationHome</span>.
         </dd>
 
     </dl>
